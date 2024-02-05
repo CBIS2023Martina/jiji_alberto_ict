@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="R4Aj.L=n=F5)R@-+NWV$">pop</variable></variables><block type="pxt-on-start" id="~AM9sz|+c9-={X1bhBwG" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=":|2|}9$9#o;ySr}k9b^V"><field name="VAR" id="R4Aj.L=n=F5)R@-+NWV$">pop</field><value name="VALUE"><shadow type="math_number" id=",U(nMVjQPW{re((mTU3S"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_gesture_event" id="DS_fi,^z+*4$i-t1_Sv/" x="258" y="-8"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="W9Lxe/[_g-b$WOy3A,2C"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="1bP4s4{tNBLLQ|EuxXo4"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="vg8Y2:7FHo9^G-0kQiZ6"><field name="VAR" id="R4Aj.L=n=F5)R@-+NWV$">pop</field></block></value><value name="B"><shadow type="math_number" id="~`-*!3Xg-5A=dLb+kJm?"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="IRJjNBV~1-|:788tg/vn"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="music_playable_play" id="0LjU!=r!}Y;vYc-a;PUG"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="Pm[F%BKl.tJ0}*C+Q9b1"><value name="note"><shadow type="device_note" id="i^4q8RgiO-D2H%|hbx0R"><field name="name">784</field></shadow></value><value name="duration"><shadow type="device_beat" id=":nPf89A$Gz!A4bBN`.!B"><field name="fraction">BeatFraction.Double</field></shadow></value></shadow></value></block></next></block></statement><statement name="ELSE"><block type="variables_change" id="ISFCm()I0uVcEH6d}ngr"><field name="VAR" id="R4Aj.L=n=F5)R@-+NWV$">pop</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="device_random" id="WaV577Imo%3W_9ZZnSh0"><value name="min"><shadow type="math_number" id="NCI|SC^C@`M~.[;{2C]f"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="cqwbvA.o^(4g0/%YQcew"><field name="NUM">4</field></shadow></value></block></value><next><block type="device_show_leds" id="8SkQs^a(24AeY/opZ=+;"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . #
+        `</field><next><block type="device_show_leds" id=")w+(jA948y.BH(;:tEg!"><field name="LEDS">`
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
